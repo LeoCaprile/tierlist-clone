@@ -1,13 +1,19 @@
+.app-container {
+  display: block;
+}
+.tier-container {
+}
 .row-container {
   display: inline-flex;
   background: rgba(49, 49, 49, 0.863);
+  border: black solid 2px;
 }
 .tier {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 4rem;
+  height: 4rem;
   border: black solid 2px;
 }
 
@@ -43,6 +49,18 @@ span {
 .image-container {
   background: rgba(49, 49, 49, 0.863);
   width: 50rem;
-  height: 80px;
+  height: 4rem;
   border: black solid 2px;
+}
+
+.image-selector {
+  display: inline-flex;
+  margin-top: 2rem;
+}
+
+.img {
+  margin: 2px;
+  height: 70px;
+  width: 70px;
+  background: black;
 }

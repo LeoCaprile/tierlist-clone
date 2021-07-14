@@ -1,8 +1,11 @@
 .app-container {
-  display: block;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
 }
 .tier-container {
 }
+
 .row-container {
   display: inline-flex;
   background: rgba(49, 49, 49, 0.863);
@@ -12,8 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 4rem;
-  height: 4rem;
+  width: 4.5rem;
+  height: 4.5rem;
   border: black solid 2px;
 }
 
@@ -47,20 +50,27 @@ span {
 }
 
 .image-container {
+  display: inline-flex;
   background: rgba(49, 49, 49, 0.863);
-  width: 50rem;
-  height: 4rem;
+  width: 40rem;
+  height: 4.5rem;
   border: black solid 2px;
 }
 
 .image-selector {
   display: inline-flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  background: black;
+  width: 45rem;
+  height: 5rem;
 }
-
+.dragging {
+  opacity: 0.5;
+}
 .img {
   margin: 2px;
   height: 70px;
   width: 70px;
-  background: black;
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/02/13/08/saxophone-918904_960_720.jpg");
+  background-size: cover;
 }

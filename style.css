@@ -1,9 +1,23 @@
+.title-container {
+  border-radius: 2rem;
+  background: rgb(39, 39, 39);
+  width: 50%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: white;
+}
 .app-container {
-  display: flexbox;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  width: 50%;
 }
 .tier-container {
+  max-width: 40rem;
+  max-height: 35rem;
 }
 
 .row-container {

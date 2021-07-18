@@ -33,6 +33,29 @@
   height: 4.5rem;
   border: black solid 2px;
 }
+.image-upload-section {
+  display: flex;
+  width: 45rem;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.file-upload-button {
+  border: rgb(74, 122, 253) solid 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.5rem;
+  color: rgb(74, 122, 253);
+  box-shadow: 1px 1px 10px -2px black;
+  border-radius: 2rem;
+}
+.file-upload-button:hover {
+  opacity: 0.8;
+}
+
+input[type="file"] {
+  display: none;
+}
 
 .s {
   background: rgb(253, 93, 93);
@@ -73,7 +96,6 @@ span {
 
 .image-selector {
   display: inline-flex;
-  margin-top: 1rem;
   background: black;
   width: 45rem;
   height: 5rem;
